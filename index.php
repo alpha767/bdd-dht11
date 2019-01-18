@@ -1,4 +1,5 @@
 <?php
+require_once 'connection_bd.php';
 $filename = "data.json" ;
 $data_json = file_get_contents($filename) ;
 $data = json_decode($data_json) ;
