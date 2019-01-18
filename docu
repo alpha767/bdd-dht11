@@ -1,0 +1,22 @@
+dht11
+
+data <--> D0
+
+convertisseur i2c 3.3v 5v
+
+BVCC <--> +3.3v
+BSCL <--> D2
+BSDA <--> D1
+BGND <--> 0v
+AVCC <--> +5v
+AGND <--> 0v
+ASCL <--> lcd
+ASDA <--> lcd
+AGND <--> lcd
+
+lcd 2*16 i2c
+
+gnd <--> agnd
+vcc <--> avcc
+sda <--> asda
+scl <--> ascl
